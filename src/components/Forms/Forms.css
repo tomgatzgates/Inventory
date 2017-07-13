@@ -1,0 +1,26 @@
+.root input,
+.root textarea {
+  display: block;
+  padding: .5rem .75rem;
+  width: calc(100% - 1.5rem);
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #55595c;
+  background-color: #fff;
+  background-image: none;
+  background-clip: padding-box;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid grey;
+  border-left: 0;
+}
+
+.root input:focus,
+.root textarea:focus {
+ outline: 0;
+ border-bottom-color: blue;
+}
+
+.root textarea {
+ resize: vertical;
+}
